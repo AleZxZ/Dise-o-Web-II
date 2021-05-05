@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas Normales</title>
+    <meta name="Description" content="Restaurante natural,comida vegana,comida que ayuda aumentar defensas del cuerpo contra el covid">
+    <link rel="stylesheet" href="/Diseno-Web-II/Proyecto_Final_menu_responsive/CSS/normales.css">
+    <script src="https://kit.fontawesome.com/bf2c344b35.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logopricipal">
+           <img src="/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/logo.png" alt="logo" > 
+         </div>
+  
+          <div class="navegacion">
+              <ul class="menu"> 
+  
+                  <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+                  
+                  <li ><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/Index.html" onclick="efectoMenu()">Inicio</a></li>
+                  <li ><a href="#">Menu </a> 
+                      <ul class="submenu">
+                          <br>
+              
+                          <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Com_normales.html" >Comidas Normales</a></li>
+                         
+                          <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Com_veganas.html">Comidas Veganas</a></li>
+  
+                          <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Com_especiales.html">Comidas Especiales</a></li>
+             
+                      </ul>
+                  </li>
+      
+                  <li><a href="#">Reservas</a>
+                      <ul class="submenu">
+                          <br>
+                          <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Resgistro.html">Registro</a></li>
+                          <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Inicio-sesion.html">Inicio de Sesion</a></li>
+                      </ul>
+                  </li>
+                
+                  <li><a href="#">Servicios</a>
+                      <ul class="submenu"> 
+                          <br>
+                          <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Delivery.html">Delivery</a></li>
+                          
+                      </ul>
+                  </li>
+                  
+                  <li class="menu1"><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Contactos.html">Contatos</a></li>
+              </ul>
+        </div>
+  
+  
+    </header>
+
+    <main>
+        <div>
+            <div class="bienvenida">
+                <div class="texto-bienvenida">
+                    <h1>MENU</h1>
+                    <p>NORMAL</p>
+                </div>
+
+            </div>
+            <div class="sugerencias" id="suge">
+
+                <div class="com-normales">
+                    
+                        <h2>SUSHI</h2>
+                        <br>
+                        <p class="texto"> 
+                            El sushi, del que hay muchas variaciones, está hecho de arroz 
+                            adobado con pescado o mariscos crudos,
+                            vegetales y hojas de algas o nori. Su preparación esta realizada con la receta origal 
+                            del sushi mostrando el estilo clásico, que datan de miles de años, y otros contemporáneos,
+                            de estilo occidental.
+                        </p> 
+                        <br>
+                        <div class="detalle">
+                            <p>
+                                PRECIO:150 Bs.-
+                            </p>
+                            <label >cantidad:</label>
+                            <select name="cantidad" class="cantidad">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <div class="caja_boton">
+                                <input type="submit" class="boton" onclick="mensaje2()" id="boton" value="Agregar al carrito" name="carrito" >
+                            </div>
+                        </div>
+
+                </div>
+                <div class="img-normal">
+                    <img src="/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/norm1.jpg" alt="adorno16">
+                </div>
+            </div>
+
+            <div class="sugerencias2">
+
+                <div class="com-vegana">
+                    
+                    <h2>LASAÑA</h2>
+                    <br>
+                    <p class="texto">
+                        La lasaña es uno de los platillos más populares 
+                        de la cocina italiana. Ya que, está elaborada  
+                        en varias capas de pasta intercaladas con carne,
+                        bechamel, queso y otros ingredientes. Su origen
+                        se remonta al siglo XVII, aunque ya existían platos
+                        similares en la época clásica.
+
+
+                    </p>
+                    <br>
+                     <div class="detalle">
+                        <p>
+                            PRECIO:60 Bs.-
+                        </p>
+                        <label >cantidad:</label>
+                        <select name="cantidad" class="cantidad">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        <div class="caja_boton">
+                            <input type="submit" class="boton" onclick="mensaje2()" value="Agregar al carrito" name="carrito" >
+                        </div>
+                     </div>
+                </div>
+                <div class="img-normal">
+                    <img src="/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/norm2.jpg" alt="adorno17">
+                </div>
+            </div>
+
+            <div class="sugerencias">
+
+                <div class="com-normales">
+                    
+                        <h2>SPAGHETTI A LA CARBONARA</h2>
+                        <br>
+                        <p class="texto">
+                            El spaghetti a la carbonara es una
+                            receta típica de Roma y de la región
+                            de Lazio. Su origen es incierto y hay
+                            varias teorías al respecto. Sin embargo,
+                            algunos locales afirman que la inventaron
+                            los carboneros, durante las largas estancias
+                            en el campo que conllevaba su oficio.
+                            
+
+
+                        </p> 
+
+                        <div class="detalle">
+                            
+                            <p>
+                                PRECIO:50 Bs.-
+                            </p>
+                            <label >cantidad:</label>
+                            <select name="cantidad" class="cantidad">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <div class="caja_boton">
+                                <input type="submit" class="boton" onclick="mensaje2()" value="Agregar al carrito" name="carrito" >
+                            </div>
+                        </div>
+                </div>
+                <div class="img-normal">
+                    <img src="/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/norm3.jpg" alt="adorno18">
+                </div>
+            </div>
+
+            <div class="sugerencias2">
+
+                <div class="com-vegana">
+                    
+                        <h2>CHURRASCO</h2>
+                        <br>
+                        <p class="texto">
+                            El churrasco brasileño se trata de un manjar nacido 
+                            de la tradición de los gauchos que asaban un trozo de 
+                            carne en un hoyo cavado en el suelo. Por lo que, desde
+                            entonces ha evolucionado a como lo conocemos hoy en día.
+                            El churrasco estara acompañado con con aderezo de champiñones
+                            tomate y papa a la parrilla.
+                        </p>
+
+                        <br>
+                        <div class="detalle">
+                            <p>
+                                PRECIO:80 Bs.-
+                            </p>
+                            <label >cantidad:</label>
+                            <select name="cantidad" class="cantidad">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <div class="caja_boton">
+                                <input type="submit" class="boton" onclick="mensaje2()" value="Agregar al carrito" name="carrito" >
+                            </div> 
+                        </div>
+                </div>
+                <div class="img-normal">
+                    <img src="/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/inicio_1.jpg" alt="adorno19">
+                </div>
+            </div>
+
+            <div class="sugerencias">
+
+                <div class="com-normales">
+                    
+                        <h2>FILETE DE TERNERA</h2>
+                        <br>
+                        <p class="texto">
+                            Una espectacular carne roja es el filete de ternera,
+                            que debido a su suavidad es delicioso al comer.
+                            Marinadas en mantequilla de primera, pimienta negra, 
+                            junto a las ramas de romero por ultimo aplicando la sal gorda
+                            para su degusto.
+                            
+                           
+                        </p> 
+
+                        <br>
+                        <div class="detalle">
+                            <p>
+                                PRECIO:30 Bs.-
+                            </p>
+                            <label >cantidad:</label>
+                            <select name="cantidad" class="cantidad">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <div class="caja_boton">
+                                <input type="submit" class="boton" onclick="mensaje2()" value="Agregar al carrito" name="carrito" >
+                            </div>
+                        </div>
+                </div>
+                <div class="img-normal">
+                    <img src="/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/com-normal.jpg" alt="adorno20">
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="redes-container">
+                
+            <ul>
+                <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/?hl=es-la" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/?lang=es" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.pinterest.es/" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="https://web.whatsapp.com/" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="Copyright">
+            <p>Copyright  © 2020 |  Restaurat Natural </p >
+            <p id="fecha"> </p>
+            <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/fecha.js"></script>
+        </div>
+    </footer>
+    <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/jquery-3.6.0.min.js"></script>
+    <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/java.js"></script>
+    <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/mensajes.js"></script>
+    <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/efectos2.js"></script>
+    
+</body>
+</html>

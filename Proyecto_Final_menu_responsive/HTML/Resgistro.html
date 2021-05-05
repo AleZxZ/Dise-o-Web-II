@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <meta name="Description" content="Restaurante natural,comida vegana,comida que ayuda aumentar defensas del cuerpo contra el covid">
+    <link rel="stylesheet" href="/Diseno-Web-II/Proyecto_Final_menu_responsive/CSS/registro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logopricipal">
+         <img src="/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/logo.png" alt="logo" > 
+        </div>
+
+        <div class="navegacion">
+            <ul class="menu"> 
+
+                <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+                
+                <li ><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/Index.html" onclick="efectoMenu()">Inicio</a></li>
+                <li ><a href="#">Menu </a> 
+                    <ul class="submenu">
+                        <br>
+            
+                        <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Com_normales.html">Comidas Normales</a></li>
+                       
+                        <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Com_veganas.html">Comidas Veganas</a></li>
+
+                        <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Com_especiales.html">Comidas Especiales</a></li>
+           
+                    </ul>
+                </li>
+    
+                <li><a href="#">Reservas</a>
+                    <ul class="submenu">
+                        <br>
+                        <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Resgistro.html" >Registro</a></li>
+                        <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Inicio-sesion.html">Inicio de Sesion</a></li>
+                    </ul>
+                </li>
+              
+                <li><a href="#">Servicios</a>
+                    <ul class="submenu"> 
+                        <br>
+                        <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Delivery.html">Delivery</a></li>
+                        
+                    </ul>
+                </li>
+                
+                <li class="menu1"><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Contactos.html">Contatos</a></li>
+            </ul>
+        </div>
+
+
+    </header>
+
+    <main>
+        <div class="fondo-resg">
+            <div class="registro">
+                <form action="" id="formulario" name="formulario">
+                    <label for="nombre">Ingresar Nombre</label><br>
+                    <input type="text" class="nombre" name="nombre"  placeholder="Nombre completo"><br>
+                    <label for="nombre">Ingresar Apellido</label><br>
+                    <input type="text" class="nombre" name="apellido" placeholder="Apellido completo"><br>
+                    <label for="nombre">Ingresar Correo</label><br>
+                    <input type="email" class="usuario" name="correo"  placeholder="correo@Gmail.com"><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" class="password" name="contraseña"  placeholder="***********"><br>
+                    <div class="generos">
+                        <input type="radio"  name="genero" value="hombre"><label for="hombre">Hombre</label><br>
+                        <input type="radio"  name="genero" value="mujer"><label for="mujer">Mujer</label><br>
+                    </div>
+                    <ul class="error" id="error"></ul>
+                    <div class="boton-caja">
+                        <input type="submit" id="boton" value="Registrar" name="Registrar" >
+                    </div>
+                    
+                </form>
+                
+
+            </div>
+        </div>
+
+
+    </main>
+    
+
+    <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/java.js"></script>
+    <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/efectos.js"></script>
+    <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/jquery-3.6.0.min.js"></script>
+    <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/mensajes.js"></script>
+</body>
+</html>

@@ -1,0 +1,469 @@
+*{
+	padding: 0;
+	margin: 0;	
+	
+}
+.navegacion{
+    font-family: 'Alice', serif;
+    margin: 0px;
+    background: rgb(176, 140, 48);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.navegacion ul{
+    list-style: none;
+}
+
+@media only screen and (max-width: 32.5em){
+    .menu li:first-child {
+      display: block;
+    
+    }
+    .menu li {
+        display: none;
+    
+    }
+    .menu a {
+        display: block;
+        
+
+        color: black;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+    }
+    .menu a:hover {
+        color: white;
+        transition: all .3s;
+    }
+    .submenu{
+        position: relative;
+        background-color: rgb(176, 140, 48);
+        display: none;
+        text-align: right;
+        
+    }
+    .submenu li a{
+        display: inline-block;
+        width: 70%;
+        padding: 10px;
+        
+
+        color: black;
+    
+        text-decoration: none;
+    }
+    .menu li:hover .submenu{
+        display: inline;
+        
+
+    }
+    
+}
+
+
+.responsive li {
+    display: block;
+}
+
+@media only screen and (min-width: 32.5em) {
+    
+
+
+    
+    .menu {
+        display: flex;
+    }
+    .menu a:hover {
+        color: white;
+        transition: all .3s;
+    }
+    .menu li:first-child {
+        display: none;
+    }
+    .menu >li{
+        position: relative;
+        display: inline-block;
+        margin: 10px;
+    }
+    .menu > li > a{
+        display: block;
+        padding: 15px 20px;
+        color: rgb(12, 12, 12);
+        
+        text-decoration: none;
+    }
+    .submenu{
+        position: absolute;
+        background-color: rgb(176, 140, 48);
+        display: none;
+        
+    }
+    .submenu li a{
+        display: block;
+        width: 130px;
+        padding: 12px;
+        color: rgb(12, 12, 12);
+       
+        text-decoration: none;
+    }
+    .menu li:hover .submenu{
+        display: block;
+        
+        
+    
+    }
+    
+}
+/******************desde aqui***/
+
+.logopricipal img{
+    position: absolute;
+    top: 35px;
+    right: 0%;
+    height: 37%;
+    
+}
+
+main {
+    font-family: 'Merienda', cursive;
+	background-size: cover;
+    background-attachment: fixed;
+    align-content:center;
+}
+.bienvenida{
+    background: rgb(26, 24, 24) url(/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/inicio_6.jpg);
+    background-size: cover;
+    height: 700px;
+    
+    
+}
+.texto-bienvenida{
+
+    color:white;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: wavy;
+    position: relative;
+    top: 198px;
+    background: black;
+    opacity: 0.5;
+   
+  
+}
+.presentacion{
+    width: 50%;
+   height: 350px;
+   font-size: 19px;
+   text-align: center;
+    background:white;
+    margin: 40px;
+    padding: 50px;
+    position: relative;
+    top: -100px;
+    left: 20%;
+    
+}
+.presentacion h2{
+    font-size: 50px;
+}
+.galeria{
+    
+    width: 100%;
+    margin-left: 10%;
+    
+    
+}
+.galeria img {
+    
+    vertical-align: top;
+    margin: 20px;
+    width: 300px;
+    height: 260px;
+    padding: 5px;
+}
+/***********/
+.sugerencias{
+    background: rgba(255, 255, 255, 0.911);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.com-normales{
+    background:rgba(255, 255, 255, 0.911);
+    width: 30%;
+    text-align: start;
+    padding: 20px;
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+}
+
+.img-normal img{
+    
+    margin: 20px;
+    width: 400px;
+    height: 260px;
+    padding: 20px;
+    box-shadow: 0px 15px 15px;
+}
+.img-normal img:hover{
+    
+    opacity: 0.4;
+    transition: all 1s;
+}
+
+/***************/
+.sugerencias2{
+    background: rgb(241, 230, 233);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.com-vegana{
+    background:rgb(241, 230, 233);
+    width: 30%;
+    text-align: start;
+    padding: 40px;
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+}
+
+/***********/
+
+.sugerencias3{
+    background:white;
+    display: flex;
+    justify-content: space-around;
+}
+.com-especial{
+    background:white;
+    width: 30%;
+    text-align: start;
+    padding: 40px;
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+}
+/***********/
+.info{
+    background:  rgb(241, 230, 233);
+    display: flex;
+    justify-content: space-around;
+}
+.propietario{
+    background: rgb(241, 230, 232);
+    width: 30%;
+    text-align: center;
+    padding: 110px;
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+}
+footer{
+    background: rgb(10, 9, 9);
+    color: blanchedalmond;
+    font-size: 20px;
+    
+}
+/*********iconos******INICIO***/
+.Copyright{
+   display: inline-flex;
+   flex-direction: column;
+}
+
+:root{
+    --facebook:#3b5999;
+    --instagram:#e4405f;
+    --twitter:#55acee;
+    --pinterest:#bd081c;
+    --whatsapp:#24b617;
+}
+.redes-container{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgb(0, 0, 0, .2);
+    transition: .2s;
+}
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgb(0, 0, 0, .4);
+    filter: none;
+}
+.redes-container ul li .facebook:hover{
+    background: var(--facebook);
+}
+.redes-container ul li .instagram:hover{
+    background: var(--instagram);
+}
+.redes-container ul li .twitter:hover{
+    background: var(--twitter);
+}
+.redes-container ul li .pinterest:hover{
+    background: var(--pinterest);
+}
+.redes-container ul li .whatsapp:hover{
+    background: var(--whatsapp);
+}
+
+/**********FIN ICONOS*/
+@media screen and (max-width:768px) {
+
+    .logopricipal img{
+        position: absolute;
+        top: 45px;
+        height: 27%;
+        visibility: hidden;
+     
+    }
+	.texto-bienvenida h1{
+        font-size: 100%;
+    }
+    .texto-bienvenida p{
+        font-size: 60%;
+    }
+ .bienvenida{
+        background: rgb(26, 24, 24) url(/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/inicio_6.jpg);
+        background-size: cover;
+        height: 500px;
+        
+    }
+   .presentacion{
+        width: 45%;
+        height: 370px;
+       
+    }
+    .presentacion h2{
+        font-size: 22px;
+    }
+    .presentacion p{
+        font-size: 19px;
+    }
+    .galeria img {
+        
+        margin: 10px;
+        background-size: 100%;
+        padding: 5px;
+        
+    }
+    .sugerencias,.sugerencias2,.sugerencias3,.info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .com-normales,.com-vegana,.com-especial{
+        text-align: center;
+    }
+    .com-normales h2,.com-vegana h2,.com-especial h2{
+        font-size: 32px;
+    }
+    .com-normales p,.com-vegana p,.com-especial p{
+        font-size: 22px;
+    }
+    .img-normal img{
+    
+        margin: 20px;
+        width: 350px;
+        height: 260px;
+        padding: 20px;
+    }
+    .propietario{
+        width: 36%;
+    }
+}
+@media screen and (max-width:520px){
+    .logopricipal img{
+        position: absolute;
+        top: 20px;
+        height: 27%;
+     
+    }
+
+}
+
+@media screen and (max-width:380px) {
+
+    .bienvenida{
+        background: rgb(26, 24, 24) url(/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/inicio_6_movil.jpg);
+        background-size: cover;
+    height: 700px;
+    }
+	.texto-bienvenida h1{
+        font-size: 60%;
+    }
+    .texto-bienvenida p{
+        font-size: 50%;
+    }
+    .caja h2{
+        font-size: 22px;
+       
+    }
+   
+
+    .presentacion{
+        width: 45%;
+        height: 650px;
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+    }
+    .galeria img {
+        
+        margin: 10px;
+        width: 200px;
+        height: 160px;
+        padding: 5px;
+    }
+
+    .img-normal img{
+        margin: 20px;
+        width: 200px;
+        height: 160px;
+        padding: 20px;
+    }
+    
+    .sugerencias,.sugerencias2,.sugerencias3{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .com-normales{
+        width: 280px;
+    }
+    .com-especial{
+        width: 280px;
+    }
+    .com-vegana{
+        width: 280px;
+    }
+    .propietario{
+        width: 60%;
+    }
+    
+    .info{
+        flex-direction: column;
+        width: 86%;
+    }
+   
+}
+

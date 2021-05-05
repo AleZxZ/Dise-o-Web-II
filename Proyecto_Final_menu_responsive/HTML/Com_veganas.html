@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas Veganas</title>
+    <meta name="Description" content="Restaurante natural,comida vegana,comida que ayuda aumentar defensas del cuerpo contra el covid">
+    <script src="https://kit.fontawesome.com/bf2c344b35.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Diseno-Web-II/Proyecto_Final_menu_responsive/CSS/veganas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logopricipal">
+           <img src="/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/logo.png" alt="logo"> 
+         </div>
+  
+          <div class="navegacion">
+              <ul class="menu"> 
+  
+                  <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+                  
+                  <li ><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/Index.html" onclick="efectoMenu()">Inicio</a></li>
+                  <li ><a href="#">Menu </a> 
+                      <ul class="submenu">
+                          <br>
+              
+                          <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Com_normales.html">Comidas Normales</a></li>
+                         
+                          <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Com_veganas.html">Comidas Veganas</a></li>
+  
+                          <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Com_especiales.html">Comidas Especiales</a></li>
+             
+                      </ul>
+                  </li>
+      
+                  <li><a href="#">Reservas</a>
+                      <ul class="submenu">
+                          <br>
+                          <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Resgistro.html">Registro</a></li>
+                          <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Inicio-sesion.html">Inicio de Sesion</a></li>
+                      </ul>
+                  </li>
+                
+                  <li><a href="#">Servicios</a>
+                      <ul class="submenu"> 
+                          <br>
+                          <li><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Delivery.html">Delivery</a></li>
+                          
+                      </ul>
+                  </li>
+                  
+                  <li class="menu1"><a href="/Diseno-Web-II/Proyecto_Final_menu_responsive/HTML/Contactos.html">Contatos</a></li>
+              </ul>
+        </div>
+  
+  
+    </header>
+
+    <main>
+        <div>
+            <div class="bienvenida">
+                <div class="texto-bienvenida">
+                    <h1>MENU</h1>
+                    <p>VEGANO </p>
+                </div>
+
+            </div>
+            <div class="sugerencias">
+
+                <div class="com-normales">
+                    
+                        <h2>PIZZA</h2>
+                        <br>
+                        <p class="texto">
+                            ¿Sabías que los veganos también comemos pizza? ¡Y es deliciosa! 
+                            Hay muchísimas formas de preparar la masa y tantas opciones de toppings
+                             que jamás te aburrirás. Además, las pizzas a base de plantas suelen ser
+                              nutritivas y contienen muchas menos calorías que las que tienen productos
+                               derivados de la explotación animal.
+                        </p> 
+                        <br>
+                        <div class="detalle">
+                            <p>
+                                PRECIO:120 Bs.-
+                            </p>
+                            <label >cantidad:</label>
+                            <select name="cantidad" class="cantidad">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <div class="caja_boton">
+                                <input type="submit" class="boton" onclick="mensaje2()" value="Agregar al carrito" name="carrito" >
+                            </div>
+                        </div>
+                </div>
+                <div class="img-normal">
+                    <img src="/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/vegan1.jpg" alt="adorno21">
+                </div>
+            </div>
+
+            <div class="sugerencias2">
+
+                <div class="com-vegana">
+                    
+                    <h2>HAMBURGUESA</h2>
+                    <br>
+                    <p class="texto">
+                        Uno de los platillos veganos más deliciosos y más fáciles es 
+                        cualquier tipo de hamburguesa veggie. Además que es un platillo muy nutritivo 
+                        seran acompñadas con las especias y legumbres que 
+                        más te gusten y el resultado siempre será delicioso. Acompáñalas con tus 
+                        aderezos preferidos, ensaladas o papas fritas.
+                    </p>
+                    <br>
+                    <div class="detalle">
+                        <p>
+                            PRECIO:60 Bs.-
+                        </p>
+                        <label >cantidad:</label>
+                        <select name="cantidad" class="cantidad">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        <div class="caja_boton">
+                            <input type="submit" class="boton" onclick="mensaje2()" value="Agregar al carrito" name="carrito" >
+                        </div>
+                    </div>
+                </div>
+                <div class="img-normal">
+                    <img src="/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/vegan2.jpg" alt="adorno22">
+                </div>
+            </div>
+
+            <div class="sugerencias">
+
+                <div class="com-normales">
+                    
+                        <h2>FALAFEL</h2>
+                        <br>
+                        <p class="texto">
+                            El falafel es un platillo originario del Medio Oriente que se ha hecho 
+                            muy popular en todo el mundo, en parte gracias a la cocina vegana.
+                            Los falafel les traeremos en su presentacion hechos al horno.
+                        </p> 
+
+                        <br>
+                        <div class="detalle">
+                            <p>
+                                PRECIO:70 Bs.-
+                            </p>
+                            <label >cantidad:</label>
+                            <select name="cantidad" class="cantidad">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <div class="caja_boton">
+                                <input type="submit" class="boton" onclick="mensaje2()" value="Agregar al carrito" name="carrito" >
+                            </div>
+                        </div>
+                </div>
+                <div class="img-normal">
+                    <img src="/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/vegan3.jpg" alt="adorno23">
+                </div>
+            </div>
+
+            <div class="sugerencias2">
+
+                <div class="com-vegana">
+                    
+                        <h2>TACO</h2>
+                        <br>
+                        <p class="texto">
+                            Los tacos veganos de echos en su mayor parte de 
+                            soya texturizada, seitán, flor de jamaica, champiñones, aguacate, 
+                            barbacoa a base de plantas, legumbres y mucho más. Servirdos 
+                            en tortillas de maíz y acompañados con limón, cilantro y cebolla 
+                            picada. ¡Por ultimo con su buena salsa para degustar del verdadero 
+                            sabor mexicano!
+                        </p>
+
+                        <br>
+                        <div class="detalle">
+                            <p>
+                                PRECIO:100 Bs.-
+                            </p>
+                            <label >cantidad:</label>
+                            <select name="cantidad" class="cantidad">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <div class="caja_boton">
+                                <input type="submit" class="boton" onclick="mensaje2()" value="Agregar al carrito" name="carrito" >
+                            </div> 
+                        </div>
+                </div>
+                <div class="img-normal">
+                    <img src="/Diseno-Web-II/Proyecto_Final_menu_responsive/IMAGENES/vegan4.jpg" alt="adorno24">
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="redes-container">
+                
+            <ul>
+                <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/?hl=es-la" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/?lang=es" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.pinterest.es/" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="https://web.whatsapp.com/" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="Copyright">
+            <p>Copyright  © 2020 |  Restaurat Natural </p >
+                <p id="fecha"> </p>
+            <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/fecha.js"></script>
+        </div>
+    </footer>
+    <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/java.js"></script>
+    <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/mensajes.js"></script>
+    <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/jquery-3.6.0.min.js"></script>
+    <script src="/Diseno-Web-II/Proyecto_Final_menu_responsive/JS/efectos2.js"></script>
+</body>
+</html>
